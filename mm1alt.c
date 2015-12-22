@@ -7,12 +7,13 @@
 #define Q_LIMIT 100  /* Limit on queue length. */
 #define BUSY      1  /* Mnemonics for server's being busy */
 #define IDLE      0  /* and idle. */
+#define LUNCHTIME -1 // server go eat lunch
 
 int   next_event_type, num_custs_delayed, num_events, num_in_q, server_status;
 float area_num_in_q, area_server_status, mean_interarrival, mean_service,
       sim_time, time_arrival[Q_LIMIT + 1], time_end, time_last_event,
-      time_next_event[6], total_of_delays;
-float time_server_try_eat = 180, time_server_must_eat = 240;
+      time_next_event[7], total_of_delays;
+float time_server_try_eat = 180, time_server_must_eat = 240, time_server_actual_eat;
 float time_short_interval = 1.0e-10;
 FILE  *infile, *outfile, *outfile2;
 
@@ -23,6 +24,7 @@ void  depart(void);
 void  report(void);
 void  server_go_eat(void);
 void  server_try_eat(void);
+void  server_back(void);
 void  update_time_avg_stats(void);
 float expon(float mean);
 
@@ -37,7 +39,7 @@ main()  /* Main function. */
 
     /* Specify the number of events for the timing function. */
 
-    num_events = 5;
+    num_events = 6;
 
     /* Read input parameters. */
 
@@ -79,25 +81,22 @@ main()  /* Main function. */
         {
             case 1:
                 arrive();
-                fprintf(outfile2, "1, %16.3f, %14d \n",
-                    sim_time, num_in_q);
                 break;
             case 2:
                 depart();
-                fprintf(outfile2, "2, %16.3f, %14d \n",
-                    sim_time, num_in_q);
                 break;
             case 3:
                 report();
                 break;
             case 4:
                 server_try_eat();
-                fprintf(outfile2, "4, %16.3f, %14d \n",
-                    sim_time, num_in_q);
                 break;
             case 5:
                 server_go_eat();
-                fprintf(outfile2, "5, %16.3f, %14d \n",
+                break;
+            case 6:
+                server_back();
+                fprintf(outfile2, "6, %16.3f, %14d \n",
                     sim_time, num_in_q);
                 break;
         }
@@ -144,6 +143,7 @@ void initialize(void)  /* Initialization function. */
     // Add lunch event
     time_next_event[4] = time_server_try_eat;
     time_next_event[5] = time_server_must_eat;
+    time_next_event[6] = 1.0e+30;
 }
 
 
@@ -210,6 +210,39 @@ void arrive(void)  /* Arrival event function. */
            arriving customer at the (new) end of time_arrival. */
 
         time_arrival[num_in_q] = sim_time;
+        fprintf(outfile2, "1, %16.3f, %14d \n",
+            sim_time, num_in_q);
+    }
+
+    else if (server_status == LUNCHTIME) {
+        if ((sim_time - time_server_actual_eat < 10 && lcgrand(2) < 0.75) ||
+            (sim_time - time_server_actual_eat < 20 && lcgrand(2) < 0.5) ||
+            (sim_time - time_server_actual_eat < 30 && lcgrand(2) < 0.25))
+            fprintf(outfile2, "7, %16.3f, %14d \n",
+                sim_time, num_in_q);
+        else {
+            /* Server is eating lunch, so increment number of customers in queue. */
+
+            ++num_in_q;
+
+            /* Check to see whether an overflow condition exists. */
+
+            if (num_in_q > Q_LIMIT) {
+
+                /* The queue has overflowed, so stop the simulation. */
+
+                fprintf(outfile, "\nOverflow of the array time_arrival at");
+                fprintf(outfile, " time %f", sim_time);
+                exit(2);
+            }
+
+            /* There is still room in the queue, so store the time of arrival of the
+               arriving customer at the (new) end of time_arrival. */
+
+            time_arrival[num_in_q] = sim_time;
+            fprintf(outfile2, "1, %16.3f, %14d \n",
+                sim_time, num_in_q);
+        }
     }
 
     else {
@@ -229,6 +262,8 @@ void arrive(void)  /* Arrival event function. */
         /* Schedule a departure (service completion). */
 
         time_next_event[2] = sim_time + expon(mean_service);
+        fprintf(outfile2, "1, %16.3f, %14d \n",
+            sim_time, num_in_q);
     }
 }
 
@@ -248,8 +283,9 @@ void depart(void)  /* Departure event function. */
         server_status      = IDLE;
         time_next_event[2] = 1.0e+30;
         if (sim_time <= time_server_must_eat 
-            && sim_time >= time_server_try_eat)
+            && sim_time >= time_server_try_eat) {
             server_go_eat();
+        }
     }
 
     else {
@@ -275,22 +311,59 @@ void depart(void)  /* Departure event function. */
         for (i = 1; i <= num_in_q; ++i)
             time_arrival[i] = time_arrival[i + 1];
     }
+    fprintf(outfile2, "2, %16.3f, %14d \n",
+        sim_time, num_in_q);
 }
 
 
-void server_go_eat(void)
+void server_go_eat(void) // server go to eat lunch
 {
-    if (time_next_event[2] < sim_time + 30)
-        time_next_event[2] = sim_time + 30;
+    // set server status to go to eat lunch
+    server_status = LUNCHTIME;
+
+    // the server_go_eat event is eliminated from consideration
     time_next_event[5] = 1.0e+30;
+
+    // server will come back after 30 minutes
+    time_next_event[6] = sim_time + 30;
+
+    if (num_in_q != 0) { // the server will go after finish the current customer
+        --num_in_q;
+        fprintf(outfile2, "5, %16.3f, %14d \n",
+            time_next_event[2], num_in_q);
+        time_server_actual_eat = time_next_event[2];
+        time_next_event[2] += 30;
+    } else {
+        fprintf(outfile2, "5, %16.3f, %14d \n",
+            sim_time, num_in_q);
+        time_server_actual_eat = sim_time;
+        time_next_event[2] = sim_time + 30;
+    }
 }
 
 
-void server_try_eat(void) // server try to go eat lunch
+void server_try_eat(void) // server try to go to eat lunch
 {
+    fprintf(outfile2, "4, %16.3f, %14d \n",
+        sim_time, num_in_q);
+    // server first try to go to eat at 12 o'clock (180min)
     if (num_in_q == 0)
         server_go_eat();
+
+    // the server_try_eat event is eliminated from consideration
     time_next_event[4] = 1.0e+30;
+}
+
+void server_back(void)
+{
+    // change server status
+    if (num_in_q == 0)
+        server_status = IDLE;
+    else
+        server_status = BUSY;
+
+    // the server_back event is eliminated from consideration
+    time_next_event[6] = 1.0e+30;
 }
 
 
