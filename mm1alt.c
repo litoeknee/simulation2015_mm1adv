@@ -13,6 +13,7 @@ float area_num_in_q, area_server_status, mean_interarrival, mean_service,
       sim_time, time_arrival[Q_LIMIT + 1], time_end, time_last_event,
       time_next_event[6], total_of_delays;
 float time_server_try_eat = 180, time_server_must_eat = 240;
+float time_short_interval = 1.0e-10;
 FILE  *infile, *outfile, *outfile2;
 
 void  initialize(void);
@@ -20,6 +21,8 @@ void  timing(void);
 void  arrive(void);
 void  depart(void);
 void  report(void);
+void  server_go_eat(void);
+void  server_try_eat(void);
 void  update_time_avg_stats(void);
 float expon(float mean);
 
@@ -76,20 +79,26 @@ main()  /* Main function. */
         {
             case 1:
                 arrive();
-                fprintf(outfile2, "%16.3f, %14d \n",
+                fprintf(outfile2, "1, %16.3f, %14d \n",
                     sim_time, num_in_q);
                 break;
             case 2:
                 depart();
-                fprintf(outfile2, "%16.3f, %14d \n",
+                fprintf(outfile2, "2, %16.3f, %14d \n",
                     sim_time, num_in_q);
                 break;
             case 3:
                 report();
                 break;
             case 4:
+                server_try_eat();
+                fprintf(outfile2, "4, %16.3f, %14d \n",
+                    sim_time, num_in_q);
                 break;
             case 5:
+                server_go_eat();
+                fprintf(outfile2, "5, %16.3f, %14d \n",
+                    sim_time, num_in_q);
                 break;
         }
 
@@ -238,6 +247,9 @@ void depart(void)  /* Departure event function. */
 
         server_status      = IDLE;
         time_next_event[2] = 1.0e+30;
+        if (sim_time <= time_server_must_eat 
+            && sim_time >= time_server_try_eat)
+            server_go_eat();
     }
 
     else {
@@ -265,19 +277,22 @@ void depart(void)  /* Departure event function. */
     }
 }
 
+
 void server_go_eat(void)
 {
-
+    if (time_next_event[2] < sim_time + 30)
+        time_next_event[2] = sim_time + 30;
+    time_next_event[5] = 1.0e+30;
 }
+
 
 void server_try_eat(void) // server try to go eat lunch
 {
     if (num_in_q == 0)
         server_go_eat();
-    else {
-
-    }
+    time_next_event[4] = 1.0e+30;
 }
+
 
 void report(void)  /* Report generator function. */
 {

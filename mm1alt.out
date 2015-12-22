@@ -8,10 +8,10 @@ Length of the simulation  480.000 minutes
 
 
 
-Average delay in queue     38.693 minutes
+Average delay in queue     66.452 minutes
 
-Average number in queue     4.081
+Average number in queue     7.097
 
 Server utilization          0.976
 
-Number of delays completed     50
+Number of delays completed     47
