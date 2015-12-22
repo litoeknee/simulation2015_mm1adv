@@ -170,6 +170,18 @@ void timing(void)  /* Timing function. */
         /* The event list is empty, so stop the simulation */
 
         fprintf(outfile, "\nEvent list empty at time %f", sim_time);
+
+        /* Compute and write estimates of desired measures of performance. */
+
+        fprintf(outfile, "\n\nAverage delay in queue%11.3f minutes\n\n",
+                total_of_delays / num_custs_delayed);
+        fprintf(outfile, "Average number in queue%10.3f\n\n",
+                area_num_in_q / sim_time);
+        fprintf(outfile, "Server utilization%15.3f\n\n",
+                area_server_status / sim_time);
+        fprintf(outfile, "Number of delays completed%7d",
+                num_custs_delayed);
+        
         exit(1);
     }
 
@@ -368,7 +380,28 @@ void server_back(void)
 
 
 void report(void)  /* Report generator function. */
-{
+{   
+    // finish all the customer wait in queue and close
+    time_next_event[3] = 1.0e+30;
+    time_next_event[1] = 1.0e+30;
+    do
+    {
+        /* Determine the next event. */
+
+        timing();
+
+        /* Update time-average statistical accumulators. */
+
+        update_time_avg_stats();
+
+        /* Invoke the appropriate event function. */
+
+        depart();
+
+    /* If the event just executed was not the end-simulation event (type 3),
+       continue simulating.  Otherwise, end the simulation. */
+
+    } while (num_in_q != 0);
     /* Compute and write estimates of desired measures of performance. */
 
     fprintf(outfile, "\n\nAverage delay in queue%11.3f minutes\n\n",
