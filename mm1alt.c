@@ -11,8 +11,9 @@
 int   next_event_type, num_custs_delayed, num_events, num_in_q, server_status;
 float area_num_in_q, area_server_status, mean_interarrival, mean_service,
       sim_time, time_arrival[Q_LIMIT + 1], time_end, time_last_event,
-      time_next_event[4], total_of_delays;
-FILE  *infile, *outfile;
+      time_next_event[6], total_of_delays;
+float time_server_try_eat = 180, time_server_must_eat = 240;
+FILE  *infile, *outfile, *outfile2;
 
 void  initialize(void);
 void  timing(void);
@@ -29,10 +30,11 @@ main()  /* Main function. */
 
     infile  = fopen("mm1alt.in",  "r");
     outfile = fopen("mm1alt.out", "w");
+    outfile2 = fopen("mm1data.out", "w");
 
     /* Specify the number of events for the timing function. */
 
-    num_events = 3;
+    num_events = 5;
 
     /* Read input parameters. */
 
@@ -50,6 +52,10 @@ main()  /* Main function. */
     /* Initialize the simulation. */
 
     initialize();
+
+    // Write report content - start simulation
+    //fprintf(outfile2, "Start simulation: %16.3f \n",
+    //    sim_time);
 
     /* Run the simulation until it terminates after an end-simulation event
        (type 3) occurs. */
@@ -70,12 +76,20 @@ main()  /* Main function. */
         {
             case 1:
                 arrive();
+                fprintf(outfile2, "%16.3f, %14d \n",
+                    sim_time, num_in_q);
                 break;
             case 2:
                 depart();
+                fprintf(outfile2, "%16.3f, %14d \n",
+                    sim_time, num_in_q);
                 break;
             case 3:
                 report();
+                break;
+            case 4:
+                break;
+            case 5:
                 break;
         }
 
@@ -86,6 +100,7 @@ main()  /* Main function. */
 
     fclose(infile);
     fclose(outfile);
+    fclose(outfile2);
 
     return 0;
 }
@@ -117,6 +132,9 @@ void initialize(void)  /* Initialization function. */
     time_next_event[1] = sim_time + expon(mean_interarrival);
     time_next_event[2] = 1.0e+30;
     time_next_event[3] = time_end;
+    // Add lunch event
+    time_next_event[4] = time_server_try_eat;
+    time_next_event[5] = time_server_must_eat;
 }
 
 
@@ -247,6 +265,19 @@ void depart(void)  /* Departure event function. */
     }
 }
 
+void server_go_eat(void)
+{
+
+}
+
+void server_try_eat(void) // server try to go eat lunch
+{
+    if (num_in_q == 0)
+        server_go_eat();
+    else {
+
+    }
+}
 
 void report(void)  /* Report generator function. */
 {
