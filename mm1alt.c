@@ -2,12 +2,15 @@
 
 #include <stdio.h>
 #include <math.h>
+#include <stdbool.h>
 #include "lcgrand.h"  /* Header file for random-number generator. */
 
 #define Q_LIMIT 100  /* Limit on queue length. */
 #define BUSY      1  /* Mnemonics for server's being busy */
 #define IDLE      0  /* and idle. */
 #define LUNCHTIME -1 // server go eat lunch
+#define TRUE 1
+#define FALSE 0
 
 int   next_event_type, num_custs_delayed, num_events, num_in_q, server_status;
 float area_num_in_q, area_server_status, mean_interarrival, mean_service,
@@ -15,6 +18,7 @@ float area_num_in_q, area_server_status, mean_interarrival, mean_service,
       time_next_event[7], total_of_delays;
 float time_server_try_eat = 180, time_server_must_eat = 240, time_server_actual_eat;
 float time_short_interval = 1.0e-10;
+bool  server_eat_done = FALSE;
 FILE  *infile, *outfile, *outfile2;
 
 void  initialize(void);
@@ -96,8 +100,6 @@ main()  /* Main function. */
                 break;
             case 6:
                 server_back();
-                fprintf(outfile2, "6, %16.3f, %14d \n",
-                    sim_time, num_in_q);
                 break;
         }
 
@@ -294,7 +296,7 @@ void depart(void)  /* Departure event function. */
 
         server_status      = IDLE;
         time_next_event[2] = 1.0e+30;
-        if (sim_time <= time_server_must_eat 
+        if (!server_eat_done && sim_time <= time_server_must_eat 
             && sim_time >= time_server_try_eat) {
             server_go_eat();
         }
@@ -336,9 +338,6 @@ void server_go_eat(void) // server go to eat lunch
     // the server_go_eat event is eliminated from consideration
     time_next_event[5] = 1.0e+30;
 
-    // server will come back after 30 minutes
-    time_next_event[6] = sim_time + 30;
-
     if (num_in_q != 0) { // the server will go after finish the current customer
         --num_in_q;
         fprintf(outfile2, "5, %16.3f, %14d \n",
@@ -349,8 +348,10 @@ void server_go_eat(void) // server go to eat lunch
         fprintf(outfile2, "5, %16.3f, %14d \n",
             sim_time, num_in_q);
         time_server_actual_eat = sim_time;
-        time_next_event[2] = sim_time + 30;
+        time_next_event[2] = sim_time + expon(mean_service) + 30;
     }
+    // server will come back after 30 minutes
+    time_next_event[6] = time_server_actual_eat + 30;
 }
 
 
@@ -373,6 +374,10 @@ void server_back(void)
         server_status = IDLE;
     else
         server_status = BUSY;
+    server_eat_done = TRUE;
+
+    fprintf(outfile2, "6, %16.3f, %14d \n",
+        sim_time, num_in_q);
 
     // the server_back event is eliminated from consideration
     time_next_event[6] = 1.0e+30;
