@@ -26,9 +26,13 @@
 
 /* Define the constants. */
 
+//#include <stdio.h>
+
 #define MODLUS 2147483647
 #define MULT1       24112
 #define MULT2       26143
+#define upbound    100000
+//FILE  *outfile;
 
 /* Set the default seeds for all 100 streams. */
 
@@ -70,6 +74,7 @@ float lcgrand(int stream)
              ((hi31 & 32767) << 16) + (hi31 >> 15);
     if (zi < 0) zi += MODLUS;
     zrng[stream] = zi;
+    // printf("zi %d, %f \n", zi, (zi >> 7 | 1) / 16777216.0);
     return (zi >> 7 | 1) / 16777216.0;
 }
 
@@ -85,4 +90,12 @@ long lcgrandgt (int stream) /* Return the current zrng for stream "stream". */
 {
     return zrng[stream];
 }
+
+// main() {
+//   int i = 0;
+//   outfile = fopen("lcgrand.out", "w");
+//   for (i = 0; i < upbound; i ++) {
+//     fprintf(outfile, "%f \n", lcgrand(1));
+//   }
+// }
 

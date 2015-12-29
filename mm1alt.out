@@ -1,26 +1,2819 @@
 Single-server queueing system with fixed run length
 
-Mean interarrival time      5.000 minutes
+Mean interarrival time     10.000 minutes
 
-Mean service time           2.000 minutes
+Mean service time           8.000 minutes
 
 Length of the simulation  480.000 minutes
 
 
+Event list empty at time 485.765564
 
-Average delay in queue      1.742 minutes
+Average delay in queue     15.375 minutes
 
-Average number in queue     0.335
+Average number in queue     1.266
 
-Server utilization          0.314
+Server utilization          0.595
 
-Number of delays completed     93
-Event list empty at time 483.986511
+Number of delays completed     40
 
-Average delay in queue      1.742 minutes
+Number of customer balking      7
 
-Average number in queue     0.335
+============================================
 
-Server utilization          0.314
+Single-server queueing system with fixed run length
 
-Number of delays completed     93
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 564.386292
+
+Average delay in queue     34.456 minutes
+
+Average number in queue     3.681
+
+Server utilization          0.740
+
+Number of delays completed     60
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 494.111877
+
+Average delay in queue     15.341 minutes
+
+Average number in queue     1.490
+
+Server utilization          0.644
+
+Number of delays completed     48
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 572.559509
+
+Average delay in queue     58.740 minutes
+
+Average number in queue     5.158
+
+Server utilization          0.800
+
+Number of delays completed     50
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 492.773071
+
+Average delay in queue      5.283 minutes
+
+Average number in queue     0.375
+
+Server utilization          0.553
+
+Number of delays completed     35
+
+Number of customer balking      0
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 526.680542
+
+Average delay in queue      9.902 minutes
+
+Average number in queue     0.714
+
+Server utilization          0.384
+
+Number of delays completed     38
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 491.780304
+
+Average delay in queue      9.765 minutes
+
+Average number in queue     0.755
+
+Server utilization          0.635
+
+Number of delays completed     38
+
+Number of customer balking      4
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     24.307 minutes
+
+Average number in queue     1.937
+
+Server utilization          0.667
+
+Number of delays completed     38
+
+Number of customer balking      3
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     24.307 minutes
+
+Average number in queue     1.937
+
+Server utilization          0.667
+
+Number of delays completed     38
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 547.824463
+
+Average delay in queue     26.220 minutes
+
+Average number in queue     2.632
+
+Server utilization          0.785
+
+Number of delays completed     55
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      2.171 minutes
+
+Average number in queue     0.154
+
+Server utilization          0.420
+
+Number of delays completed     34
+
+Number of customer balking      2
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      2.171 minutes
+
+Average number in queue     0.154
+
+Server utilization          0.420
+
+Number of delays completed     34
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 522.904541
+
+Average delay in queue     47.799 minutes
+
+Average number in queue     4.412
+
+Server utilization          0.724
+
+Number of delays completed     48
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      7.162 minutes
+
+Average number in queue     0.701
+
+Server utilization          0.611
+
+Number of delays completed     47
+
+Number of customer balking      2
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      7.162 minutes
+
+Average number in queue     0.701
+
+Server utilization          0.611
+
+Number of delays completed     47
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 533.458618
+
+Average delay in queue     59.768 minutes
+
+Average number in queue     5.957
+
+Server utilization          0.800
+
+Number of delays completed     53
+
+Number of customer balking      5
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 483.285645
+
+Average delay in queue     26.055 minutes
+
+Average number in queue     2.103
+
+Server utilization          0.707
+
+Number of delays completed     39
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 488.750214
+
+Average delay in queue     13.609 minutes
+
+Average number in queue     1.531
+
+Server utilization          0.699
+
+Number of delays completed     55
+
+Number of customer balking      0
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 551.550171
+
+Average delay in queue     43.182 minutes
+
+Average number in queue     4.307
+
+Server utilization          0.833
+
+Number of delays completed     55
+
+Number of customer balking      4
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     23.696 minutes
+
+Average number in queue     1.975
+
+Server utilization          0.688
+
+Number of delays completed     40
+
+Number of customer balking      1
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     23.696 minutes
+
+Average number in queue     1.975
+
+Server utilization          0.688
+
+Number of delays completed     40
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 626.459900
+
+Average delay in queue     57.300 minutes
+
+Average number in queue     5.221
+
+Server utilization          0.836
+
+Number of delays completed     57
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 492.356415
+
+Average delay in queue      9.913 minutes
+
+Average number in queue     0.895
+
+Server utilization          0.660
+
+Number of delays completed     44
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 569.819763
+
+Average delay in queue     71.264 minutes
+
+Average number in queue     6.015
+
+Server utilization          0.811
+
+Number of delays completed     48
+
+Number of customer balking      6
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      5.105 minutes
+
+Average number in queue     0.516
+
+Server utilization          0.596
+
+Number of delays completed     47
+
+Number of customer balking      0
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      5.105 minutes
+
+Average number in queue     0.516
+
+Server utilization          0.596
+
+Number of delays completed     47
+
+Number of customer balking      0
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 525.779785
+
+Average delay in queue     18.901 minutes
+
+Average number in queue     1.582
+
+Server utilization          0.738
+
+Number of delays completed     44
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 505.391113
+
+Average delay in queue     37.624 minutes
+
+Average number in queue     3.810
+
+Server utilization          0.757
+
+Number of delays completed     51
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 521.417725
+
+Average delay in queue     30.472 minutes
+
+Average number in queue     2.468
+
+Server utilization          0.683
+
+Number of delays completed     42
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 538.972839
+
+Average delay in queue     17.216 minutes
+
+Average number in queue     1.278
+
+Server utilization          0.546
+
+Number of delays completed     40
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 488.876099
+
+Average delay in queue      9.232 minutes
+
+Average number in queue     0.774
+
+Server utilization          0.553
+
+Number of delays completed     41
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 481.669128
+
+Average delay in queue     34.196 minutes
+
+Average number in queue     3.164
+
+Server utilization          0.777
+
+Number of delays completed     44
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 504.288239
+
+Average delay in queue     15.942 minutes
+
+Average number in queue     1.170
+
+Server utilization          0.681
+
+Number of delays completed     37
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 537.746948
+
+Average delay in queue     15.968 minutes
+
+Average number in queue     1.277
+
+Server utilization          0.785
+
+Number of delays completed     43
+
+Number of customer balking      0
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.635284
+
+Average delay in queue     10.477 minutes
+
+Average number in queue     1.133
+
+Server utilization          0.721
+
+Number of delays completed     52
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 568.777954
+
+Average delay in queue     85.478 minutes
+
+Average number in queue     6.777
+
+Server utilization          0.823
+
+Number of delays completed     45
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 485.248230
+
+Average delay in queue      6.508 minutes
+
+Average number in queue     0.617
+
+Server utilization          0.529
+
+Number of delays completed     46
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     20.470 minutes
+
+Average number in queue     1.706
+
+Server utilization          0.672
+
+Number of delays completed     40
+
+Number of customer balking      2
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     20.470 minutes
+
+Average number in queue     1.706
+
+Server utilization          0.672
+
+Number of delays completed     40
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 552.452637
+
+Average delay in queue     36.995 minutes
+
+Average number in queue     3.096
+
+Server utilization          0.755
+
+Number of delays completed     46
+
+Number of customer balking      4
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 569.364990
+
+Average delay in queue     32.520 minutes
+
+Average number in queue     2.513
+
+Server utilization          0.633
+
+Number of delays completed     44
+
+Number of customer balking      0
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 496.566193
+
+Average delay in queue      5.075 minutes
+
+Average number in queue     0.429
+
+Server utilization          0.488
+
+Number of delays completed     42
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 520.859436
+
+Average delay in queue     16.717 minutes
+
+Average number in queue     1.336
+
+Server utilization          0.506
+
+Number of delays completed     41
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 547.675659
+
+Average delay in queue     23.289 minutes
+
+Average number in queue     2.339
+
+Server utilization          0.718
+
+Number of delays completed     55
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 523.805176
+
+Average delay in queue     12.716 minutes
+
+Average number in queue     1.044
+
+Server utilization          0.584
+
+Number of delays completed     43
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      9.281 minutes
+
+Average number in queue     1.005
+
+Server utilization          0.616
+
+Number of delays completed     52
+
+Number of customer balking      2
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      9.281 minutes
+
+Average number in queue     1.005
+
+Server utilization          0.616
+
+Number of delays completed     52
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 485.708710
+
+Average delay in queue      5.505 minutes
+
+Average number in queue     0.510
+
+Server utilization          0.523
+
+Number of delays completed     45
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 485.454865
+
+Average delay in queue     20.947 minutes
+
+Average number in queue     1.640
+
+Server utilization          0.639
+
+Number of delays completed     38
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 528.580078
+
+Average delay in queue     12.025 minutes
+
+Average number in queue     1.024
+
+Server utilization          0.663
+
+Number of delays completed     45
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 493.656860
+
+Average delay in queue     23.815 minutes
+
+Average number in queue     2.171
+
+Server utilization          0.699
+
+Number of delays completed     45
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 484.515442
+
+Average delay in queue     21.293 minutes
+
+Average number in queue     2.637
+
+Server utilization          0.790
+
+Number of delays completed     60
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 517.164001
+
+Average delay in queue     22.771 minutes
+
+Average number in queue     2.260
+
+Server utilization          0.666
+
+Number of delays completed     51
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 536.803894
+
+Average delay in queue      9.707 minutes
+
+Average number in queue     0.759
+
+Server utilization          0.458
+
+Number of delays completed     42
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 486.843781
+
+Average delay in queue      9.710 minutes
+
+Average number in queue     0.885
+
+Server utilization          0.559
+
+Number of delays completed     44
+
+Number of customer balking      5
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 497.148010
+
+Average delay in queue     12.085 minutes
+
+Average number in queue     1.070
+
+Server utilization          0.592
+
+Number of delays completed     44
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 491.558899
+
+Average delay in queue     28.721 minutes
+
+Average number in queue     2.746
+
+Server utilization          0.775
+
+Number of delays completed     47
+
+Number of customer balking      0
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 484.350739
+
+Average delay in queue      7.426 minutes
+
+Average number in queue     0.583
+
+Server utilization          0.338
+
+Number of delays completed     38
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      3.425 minutes
+
+Average number in queue     0.235
+
+Server utilization          0.438
+
+Number of delays completed     33
+
+Number of customer balking      2
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      3.425 minutes
+
+Average number in queue     0.235
+
+Server utilization          0.438
+
+Number of delays completed     33
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      9.405 minutes
+
+Average number in queue     0.882
+
+Server utilization          0.591
+
+Number of delays completed     45
+
+Number of customer balking      1
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      9.405 minutes
+
+Average number in queue     0.882
+
+Server utilization          0.591
+
+Number of delays completed     45
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      9.174 minutes
+
+Average number in queue     0.784
+
+Server utilization          0.551
+
+Number of delays completed     41
+
+Number of customer balking      4
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      9.174 minutes
+
+Average number in queue     0.784
+
+Server utilization          0.551
+
+Number of delays completed     41
+
+Number of customer balking      4
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 486.679718
+
+Average delay in queue     14.829 minutes
+
+Average number in queue     1.341
+
+Server utilization          0.653
+
+Number of delays completed     44
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 657.101562
+
+Average delay in queue     99.885 minutes
+
+Average number in queue     8.071
+
+Server utilization          0.839
+
+Number of delays completed     53
+
+Number of customer balking      0
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     12.195 minutes
+
+Average number in queue     0.991
+
+Server utilization          0.484
+
+Number of delays completed     39
+
+Number of customer balking      0
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     12.195 minutes
+
+Average number in queue     0.991
+
+Server utilization          0.484
+
+Number of delays completed     39
+
+Number of customer balking      0
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 519.171448
+
+Average delay in queue     42.847 minutes
+
+Average number in queue     3.730
+
+Server utilization          0.789
+
+Number of delays completed     45
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     17.657 minutes
+
+Average number in queue     1.619
+
+Server utilization          0.683
+
+Number of delays completed     44
+
+Number of customer balking      4
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     17.657 minutes
+
+Average number in queue     1.619
+
+Server utilization          0.683
+
+Number of delays completed     44
+
+Number of customer balking      4
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 513.833679
+
+Average delay in queue     31.326 minutes
+
+Average number in queue     3.425
+
+Server utilization          0.856
+
+Number of delays completed     56
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 515.734192
+
+Average delay in queue     17.371 minutes
+
+Average number in queue     1.617
+
+Server utilization          0.713
+
+Number of delays completed     48
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 547.511108
+
+Average delay in queue     50.732 minutes
+
+Average number in queue     5.096
+
+Server utilization          0.815
+
+Number of delays completed     55
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     68.191 minutes
+
+Average number in queue     6.252
+
+Server utilization          0.733
+
+Number of delays completed     44
+
+Number of customer balking      1
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     68.191 minutes
+
+Average number in queue     6.252
+
+Server utilization          0.733
+
+Number of delays completed     44
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 488.218140
+
+Average delay in queue     10.025 minutes
+
+Average number in queue     0.826
+
+Server utilization          0.589
+
+Number of delays completed     39
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 501.601532
+
+Average delay in queue     17.492 minutes
+
+Average number in queue     1.778
+
+Server utilization          0.653
+
+Number of delays completed     51
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 482.424622
+
+Average delay in queue     19.648 minutes
+
+Average number in queue     1.792
+
+Server utilization          0.743
+
+Number of delays completed     44
+
+Number of customer balking      0
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 539.876404
+
+Average delay in queue     44.597 minutes
+
+Average number in queue     4.142
+
+Server utilization          0.765
+
+Number of delays completed     50
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 522.354736
+
+Average delay in queue     12.709 minutes
+
+Average number in queue     1.168
+
+Server utilization          0.695
+
+Number of delays completed     48
+
+Number of customer balking      0
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 484.523834
+
+Average delay in queue      5.690 minutes
+
+Average number in queue     0.487
+
+Server utilization          0.443
+
+Number of delays completed     40
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 487.083221
+
+Average delay in queue     13.152 minutes
+
+Average number in queue     1.107
+
+Server utilization          0.709
+
+Number of delays completed     41
+
+Number of customer balking      4
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     13.098 minutes
+
+Average number in queue     1.230
+
+Server utilization          0.559
+
+Number of delays completed     45
+
+Number of customer balking      3
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     13.098 minutes
+
+Average number in queue     1.230
+
+Server utilization          0.559
+
+Number of delays completed     45
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 498.465424
+
+Average delay in queue      4.967 minutes
+
+Average number in queue     0.458
+
+Server utilization          0.541
+
+Number of delays completed     46
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 544.252319
+
+Average delay in queue     20.920 minutes
+
+Average number in queue     2.076
+
+Server utilization          0.746
+
+Number of delays completed     54
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 561.923828
+
+Average delay in queue     24.271 minutes
+
+Average number in queue     2.635
+
+Server utilization          0.842
+
+Number of delays completed     61
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 534.391541
+
+Average delay in queue     18.686 minutes
+
+Average number in queue     1.853
+
+Server utilization          0.653
+
+Number of delays completed     53
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 487.762665
+
+Average delay in queue     14.100 minutes
+
+Average number in queue     0.925
+
+Server utilization          0.599
+
+Number of delays completed     32
+
+Number of customer balking      0
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      7.458 minutes
+
+Average number in queue     0.544
+
+Server utilization          0.494
+
+Number of delays completed     35
+
+Number of customer balking      0
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      7.458 minutes
+
+Average number in queue     0.544
+
+Server utilization          0.494
+
+Number of delays completed     35
+
+Number of customer balking      0
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 552.905640
+
+Average delay in queue     32.947 minutes
+
+Average number in queue     3.039
+
+Server utilization          0.641
+
+Number of delays completed     51
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     10.267 minutes
+
+Average number in queue     0.857
+
+Server utilization          0.483
+
+Number of delays completed     39
+
+Number of customer balking      1
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     10.267 minutes
+
+Average number in queue     0.857
+
+Server utilization          0.483
+
+Number of delays completed     39
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 548.599915
+
+Average delay in queue     17.611 minutes
+
+Average number in queue     1.509
+
+Server utilization          0.636
+
+Number of delays completed     47
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 487.875488
+
+Average delay in queue      8.360 minutes
+
+Average number in queue     0.805
+
+Server utilization          0.699
+
+Number of delays completed     47
+
+Number of customer balking      4
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 563.023071
+
+Average delay in queue     24.441 minutes
+
+Average number in queue     2.257
+
+Server utilization          0.753
+
+Number of delays completed     52
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 484.246613
+
+Average delay in queue     14.736 minutes
+
+Average number in queue     1.309
+
+Server utilization          0.605
+
+Number of delays completed     43
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 488.871857
+
+Average delay in queue     36.282 minutes
+
+Average number in queue     3.414
+
+Server utilization          0.792
+
+Number of delays completed     46
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 492.699707
+
+Average delay in queue     10.513 minutes
+
+Average number in queue     1.174
+
+Server utilization          0.648
+
+Number of delays completed     55
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 484.327240
+
+Average delay in queue     20.378 minutes
+
+Average number in queue     2.197
+
+Server utilization          0.717
+
+Number of delays completed     52
+
+Number of customer balking      4
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 495.135986
+
+Average delay in queue     18.519 minutes
+
+Average number in queue     1.833
+
+Server utilization          0.666
+
+Number of delays completed     49
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 512.823120
+
+Average delay in queue      7.363 minutes
+
+Average number in queue     0.660
+
+Server utilization          0.631
+
+Number of delays completed     46
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 536.740601
+
+Average delay in queue     27.514 minutes
+
+Average number in queue     2.779
+
+Server utilization          0.737
+
+Number of delays completed     54
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     30.423 minutes
+
+Average number in queue     3.233
+
+Server utilization          0.834
+
+Number of delays completed     51
+
+Number of customer balking      2
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     30.423 minutes
+
+Average number in queue     3.233
+
+Server utilization          0.834
+
+Number of delays completed     51
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 536.669800
+
+Average delay in queue     50.329 minutes
+
+Average number in queue     5.252
+
+Server utilization          0.784
+
+Number of delays completed     56
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 518.528076
+
+Average delay in queue     24.203 minutes
+
+Average number in queue     2.619
+
+Server utilization          0.808
+
+Number of delays completed     56
+
+Number of customer balking      0
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 516.652893
+
+Average delay in queue     24.218 minutes
+
+Average number in queue     2.719
+
+Server utilization          0.823
+
+Number of delays completed     58
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      7.560 minutes
+
+Average number in queue     0.677
+
+Server utilization          0.578
+
+Number of delays completed     43
+
+Number of customer balking      1
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      7.560 minutes
+
+Average number in queue     0.677
+
+Server utilization          0.578
+
+Number of delays completed     43
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 507.449005
+
+Average delay in queue     10.786 minutes
+
+Average number in queue     0.850
+
+Server utilization          0.508
+
+Number of delays completed     40
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 510.676483
+
+Average delay in queue     15.350 minutes
+
+Average number in queue     1.718
+
+Server utilization          0.685
+
+Number of delays completed     57
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     23.027 minutes
+
+Average number in queue     1.818
+
+Server utilization          0.608
+
+Number of delays completed     37
+
+Number of customer balking      2
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     23.027 minutes
+
+Average number in queue     1.818
+
+Server utilization          0.608
+
+Number of delays completed     37
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 505.492004
+
+Average delay in queue      7.564 minutes
+
+Average number in queue     0.748
+
+Server utilization          0.576
+
+Number of delays completed     50
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      9.524 minutes
+
+Average number in queue     0.853
+
+Server utilization          0.640
+
+Number of delays completed     43
+
+Number of customer balking      1
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      9.524 minutes
+
+Average number in queue     0.853
+
+Server utilization          0.640
+
+Number of delays completed     43
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     23.172 minutes
+
+Average number in queue     1.979
+
+Server utilization          0.706
+
+Number of delays completed     41
+
+Number of customer balking      3
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     23.172 minutes
+
+Average number in queue     1.979
+
+Server utilization          0.706
+
+Number of delays completed     41
+
+Number of customer balking      3
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      8.093 minutes
+
+Average number in queue     0.624
+
+Server utilization          0.629
+
+Number of delays completed     37
+
+Number of customer balking      2
+
+
+Event list empty at time 480.000000
+
+Average delay in queue      8.093 minutes
+
+Average number in queue     0.624
+
+Server utilization          0.629
+
+Number of delays completed     37
+
+Number of customer balking      2
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     17.499 minutes
+
+Average number in queue     1.604
+
+Server utilization          0.587
+
+Number of delays completed     44
+
+Number of customer balking      1
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     17.499 minutes
+
+Average number in queue     1.604
+
+Server utilization          0.587
+
+Number of delays completed     44
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 514.802917
+
+Average delay in queue     66.654 minutes
+
+Average number in queue     6.504
+
+Server utilization          0.829
+
+Number of delays completed     50
+
+Number of customer balking      0
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 507.577087
+
+Average delay in queue     63.158 minutes
+
+Average number in queue     6.127
+
+Server utilization          0.826
+
+Number of delays completed     49
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     10.017 minutes
+
+Average number in queue     0.918
+
+Server utilization          0.689
+
+Number of delays completed     44
+
+Number of customer balking      0
+
+
+Event list empty at time 480.000000
+
+Average delay in queue     10.017 minutes
+
+Average number in queue     0.918
+
+Server utilization          0.689
+
+Number of delays completed     44
+
+Number of customer balking      0
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 487.737122
+
+Average delay in queue      8.025 minutes
+
+Average number in queue     0.806
+
+Server utilization          0.644
+
+Number of delays completed     49
+
+Number of customer balking      0
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 536.657349
+
+Average delay in queue     19.023 minutes
+
+Average number in queue     1.524
+
+Server utilization          0.549
+
+Number of delays completed     43
+
+Number of customer balking      1
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 505.566559
+
+Average delay in queue     11.463 minutes
+
+Average number in queue     0.589
+
+Server utilization          0.365
+
+Number of delays completed     26
+
+Number of customer balking      0
+
+============================================
+
+Single-server queueing system with fixed run length
+
+Mean interarrival time     10.000 minutes
+
+Mean service time           8.000 minutes
+
+Length of the simulation  480.000 minutes
+
+
+Event list empty at time 496.174622
+
+Average delay in queue     26.352 minutes
+
+Average number in queue     1.912
+
+Server utilization          0.681
+
+Number of delays completed     36
+
+Number of customer balking      0
+
+============================================
+
